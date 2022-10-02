@@ -1,0 +1,43 @@
+.food{
+    margin-top: 100px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    margin-top: 25px;
+    padding: 15px 20px;
+    display: flex;
+    width: 300px;
+    border: 1px solid #F9A755;
+    height: 350px;
+    border-radius: 15px 0;
+    flex-direction: column;
+}
+.card div{
+    display: flex;
+    justify-content: space-between;
+}
+.card img{
+    width: 60%;
+    margin-left: 20%;
+    height: 150px;
+}
+.card:hover{
+    background: #FFFFFF;
+    border: 1px solid #F9A755;
+    box-shadow: 0px 30px 30px 13px rgba(198, 198, 198, 0.25);
+    border-radius: 0 15px;
+    transition: 0.5s ease-in;
+}
+.card:focus{
+    background-color: black;
+    color: white;
+}
+.card img:hover{
+    margin-top: 30px;
+    transform: scale(1.5);
+    transition: 0.5s ease;
+}

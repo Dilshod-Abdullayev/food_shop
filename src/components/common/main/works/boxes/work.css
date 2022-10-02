@@ -1,0 +1,20 @@
+.box-top{
+    width: 70px;
+    height: 70px;
+    margin-left: 40%;
+border-radius: 50%;
+
+}
+.box{
+    width: 300px;
+    height: auto;
+   
+}
+.boxs{
+    display: flex;
+    align-self: center;
+    flex-wrap: wrap;
+    padding: 15px 35px;
+    display: flex;
+    justify-content: space-between;
+}

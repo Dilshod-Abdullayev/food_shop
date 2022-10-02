@@ -1,0 +1,14 @@
+.navbar{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    padding-top: 15px;
+    display: inline-block;
+    font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+color:black;
+}
