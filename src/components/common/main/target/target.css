@@ -1,0 +1,7 @@
+.target{
+    display: flex;
+    justify-content:space-around;
+}
+.target__info{
+    padding-top: 50px;
+}

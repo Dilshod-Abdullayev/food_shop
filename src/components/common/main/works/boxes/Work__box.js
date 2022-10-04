@@ -29,10 +29,8 @@ class Work__box extends Component {
                 { 
                     work_box.map((item,index)=>(
                         <div className='box'  key={index}>
-                          <div style={{background:`${item.color}`}} onClick={()=>
-                            
+                          <div style={{background:`${item.color}`}} onClick={()=>       
                             (console.log(item.color))} className='box-top'>
-                               
                           </div>
                           <H1>{item.title}</H1>
                           <P>{item.text}</P>

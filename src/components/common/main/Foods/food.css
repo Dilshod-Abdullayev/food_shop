@@ -26,18 +26,74 @@
     height: 150px;
 }
 .card:hover{
-    background: #FFFFFF;
-    border: 1px solid #F9A755;
+    background: #d1d167;
+    border: 5px solid #F9A755;
     box-shadow: 0px 30px 30px 13px rgba(198, 198, 198, 0.25);
-    border-radius: 0 15px;
+    border-radius: 0 35px;
+    cursor: pointer;
     transition: 0.5s ease-in;
+    color: white;
 }
+.card:hover 
 .card:focus{
     background-color: black;
     color: white;
 }
-.card img:hover{
-    margin-top: 30px;
-    transform: scale(1.5);
-    transition: 0.5s ease;
+/* CARD INFO */
+.info{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+.product-name{
+    font-size: 35px;
+    font-weight: 900;
+    color: #F9A755;
+}
+.product-info{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+}
+.product-info img{
+    padding-right: 100px;
+    width: 45%;
+    height: 450px;
+}
+.product-info div{
+    padding: 20px;
+    height: 500px;
+}
+h2{
+    font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 43px;
+color: #383838;
+}
+h3 span{
+    color: rgb(141, 141, 10);
+    font-weight: 900;
+}
+h3{
+    font-style: normal;
+font-weight: 500;
+font-size: 26px;
+text-align: center;
+line-height: 43px;
+color: antiquewhite;
+}
+.buttons-group{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.card__num{
+    width: auto;
+    height: 200px;
 }

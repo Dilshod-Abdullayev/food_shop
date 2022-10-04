@@ -30,7 +30,7 @@ export const nav=[
         path:'Contact'
     }
 ]
-export const work_box=[
+export const work_box=[ 
     {
         color:'blue',
         icon:'<FileTextOutlined/>',
@@ -55,19 +55,19 @@ export const card=[
         src:img1,
         title:'New York Vega',
         text:'Lorem Ipsum is simply dummy text of the printing and typesetting....',
-        money:'$7.10'
+        money:'$17.10'
     },
     { 
         src:img2,
         title:'New York Vega',
         text:'Lorem Ipsum is simply dummy text of the printing and typesetting....',
-        money:'$7.10'
+        money:'$5.10'
     },
     { 
         src:img3,
         title:'New York Vega',
         text:'Lorem Ipsum is simply dummy text of the printing and typesetting....',
-        money:'$7.10'
+        money:'$2.10'
     },
     { 
         src:img4,
@@ -77,23 +77,23 @@ export const card=[
     },
     { 
         src:img5,
-        title:'New York Vega',
+        title:'New York UZb',
         text:'Lorem Ipsum is simply dummy text of the printing and typesetting....',
-        money:'$7.10'
+        money:'$9.10'
     },
     { 
         src:img6,
-        title:'New York Vega',
+        title:'New York RUs',
         text:'Lorem Ipsum is simply dummy text of the printing and typesetting....',
-        money:'$7.10'
+        money:'$3.10'
     },
     { 
         src:img7,
-        title:'New York Vega',
+        title:'New York KZ  ',
         text:'Lorem Ipsum is simply dummy text of the printing and typesetting....',
         money:'$7.10'
     },
-    { 
+    {
         src:img8,
         title:'New York Vega',
         text:'Lorem Ipsum is simply dummy text of the printing and typesetting....',
